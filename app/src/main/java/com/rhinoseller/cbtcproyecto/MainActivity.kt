@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         // Definir los controles
         ilClinNombres = findViewById<TextInputLayout>(R.id.ilClinNombres)
         ilClinApellidos = findViewById<TextInputLayout>(R.id.ilClinApellidos)
-        ilClinTelefono = findViewById<TextInputLayout>(R.id.etClinTelefono)
+        ilClinTelefono = findViewById<TextInputLayout>(R.id.ilClinTelefono)
         ilClinCorreo = findViewById<TextInputLayout>(R.id.ilClinCorreo)
         ilClinObserv = findViewById<TextInputLayout>(R.id.ilClinObserv)
 
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
 
         btnClinSiguiente.setOnClickListener {
-            //validarFormulario()
+            validarFormulario()
 
             //val intent = Intent(this, ServicioActivity::class.java)
             //startActivity(intent)
